@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/inicio"
+        android:title="@string/menu_nav_inicio"
+        android:icon="@drawable/ic_home_black_24dp"/>
+    <item
+        android:id="@+id/edit_perfil"
+        android:title="@string/menu_nav_perfil"
+        android:icon="@drawable/ic_person_black_24dp"/>
+    <item
+        android:id="@+id/edit_fincas"
+        android:title="@string/menu_nav_fincas"
+        android:icon="@drawable/ic_mode_edit_black_24dp"/>
+    <item
+        android:id="@+id/edit_actividades"
+        android:title="@string/menu_nav_actividades"
+        android:icon="@drawable/ic_mode_edit_black_24dp"/>
+    <item
+        android:id="@+id/edit_empleados"
+        android:title="@string/menu_nav_empleados"
+        android:icon="@drawable/ic_mode_edit_black_24dp"/>
+    <item
+        android:id="@+id/historial_fact"
+        android:title="@string/menu_nav_historialfact"
+        android:icon="@drawable/ic_history_black_24dp"/>
+    <item
+        android:id="@+id/backup"
+        android:title="@string/menu_nav_backup"
+        android:icon="@drawable/ic_backup_black_24dp"/>
+
+    <item
+        android:id="@+id/contacto"
+        android:title="@string/menu_nav_contacto"
+        android:icon="@drawable/ic_info_black_24dp"/>
+
+    <item
+        android:id="@+id/logout"
+        android:title="@string/logout"
+        android:icon="@drawable/ic_close_black_24dp"/>
+
+
+
+</menu>

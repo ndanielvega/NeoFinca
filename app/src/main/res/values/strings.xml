@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Neofinca</string>
+    <string name="login">ENTRAR</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="register">REGISTRARSE</string>
+
+    <!-- Strings related to titles-->
+    <string name="title_home">Inicio</string>
+    <string name="title_activity_register">Registrar usuario</string>
+    <string name="title_edit_perfil">Editar perfil</string>
+    <string name="title_fincas">Fincas</string>
+    <string name="title_editar_fincas">Editar finca</string>
+    <string name="title_empleados">Empleados</string>
+    <string name="title_editar_empleados">Editar empleado</string>
+    <string name="title_actividades">Actividades</string>
+    <string name="title_editar_actividades">Editar actividad</string>
+    <string name="title_backup">Copia de seguridad</string>
+    <string name="title_historial">Historial de facturas</string>
+
+    <string name="title_historial_resultados">Resultados de busqueda:</string>
+
+
+    <!-- Strings related to menu_nav -->
+    <string name="menu_nav_open">Abrir</string>
+    <string name="menu_nav_close">Cerrar</string>
+    <string name="menu_nav_inicio">Inicio</string>
+    <string name="menu_nav_perfil">Editar perfil</string>
+    <string name="menu_nav_fincas">Fincas</string>
+    <string name="menu_nav_empleados">Empleados</string>
+    <string name="menu_nav_actividades">Actividades</string>
+    <string name="menu_nav_backup">Copia de seguridad</string>
+    <string name="menu_nav_contacto">Contacto</string>
+    <string name="menu_nav_historialfact">Historial de facturas</string>
+
+
+    <string name="user_name">Nombre de usuario</string>
+    <string name="user_pass">Contraseña</string>
+    <string name="user_email">Correo electrónico</string>
+    <string name="user_tel">Telefono</string>
+
+
+    <!-- Strings related to register -->
+    <string name="register_user_button">Registrar</string>
+    <string name="user_confirm_pass">Confirma la contraseña</string>
+
+</resources>

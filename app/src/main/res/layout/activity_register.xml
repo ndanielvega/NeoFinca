@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+            <TextView
+                android:id="@+id/label_user_name_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="@string/user_name" />
+
+            <EditText
+                android:id="@+id/user_name_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColorLink="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/label_user_tel_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/user_tel" />
+
+            <EditText
+                android:id="@+id/user_tel_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:inputType="phone"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColorLink="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/label_user_email_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/user_email" />
+
+            <EditText
+                android:id="@+id/user_email_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColorLink="@color/colorPrimary" />
+
+
+            <TextView
+                android:id="@+id/label_user_pass_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/user_pass" />
+
+            <EditText
+                android:id="@+id/user_pass_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColorLink="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/label_user_pass_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/user_confirm_pass"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColorLink="@color/colorPrimary" />
+
+            <EditText
+                android:id="@+id/user_pass_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:textColorLink="@color/colorPrimary"
+                android:backgroundTint="@color/colorPrimary"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:id="@+id/error_message_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:textAlignment="center"/>
+
+            <Button
+                android:id="@+id/register_page_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:text="@string/register_user_button"
+                android:layout_marginBottom="30dp"
+                android:textColor="@android:color/background_light" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TOTAL A CANCELAR POR ACTIVIDADES FINALIZADAS"
+        android:paddingTop="30dp"
+        android:textColor="@color/colorAccent"
+        android:paddingBottom="30dp"
+        android:textSize="15sp"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/emp_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:textSize="15dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textColor="@android:color/black"
+        android:text="Empleado responsable: Nombre empleado"/>
+    <TextView
+        android:id="@+id/emp_val"
+        android:paddingLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:textSize="15dp"
+        android:paddingBottom="5dp"
+        android:textColor="@android:color/black"
+        android:text="Valor por jornal trabajado: 0 COP"/>
+    <TextView
+        android:id="@+id/fact_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="20dp"
+        android:textColor="@android:color/black"
+        android:text="00/00/0000"/>
+
+    <LinearLayout
+        android:id="@+id/data_lo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorGray"
+        android:layout_margin="10dp"
+        android:padding="10dp">
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/fact_total"
+        android:textSize="19dp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="Total de factura: 150000 COP"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:text="*Al facturar las actividades finalizadas desapareceran de la lista de actividades de la finca "/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <Button
+            android:id="@+id/acept_bt"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="ACEPTAR"/>
+        <Button
+            android:id="@+id/cancel_bt"
+            android:background="@color/colorAccent"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CANCELAR"/>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

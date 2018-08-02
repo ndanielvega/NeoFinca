@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ddannielvega.neofinca">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".RealmApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:parentActivityName=".LoginActivity"
+            android:windowSoftInputMode="stateHidden">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LoginActivity" />
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_home"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PerfilActivity"
+            android:label="@string/title_edit_perfil"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".FiltroHistorialActivity"
+            android:label="@string/title_historial" />
+        <activity
+            android:name=".AsignacionesActivity"
+            android:label="Administrar finca"
+            android:parentActivityName=".HomeActivity"
+            android:windowSoftInputMode="stateHidden">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomeActivity" />
+        </activity>
+        <activity
+            android:name=".EditarActividadesActivity"
+            android:label="@string/title_editar_actividades"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".EditarEmpleadosActivity"
+            android:label="@string/title_editar_empleados"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".EditarFincasActivity"
+            android:label="@string/title_editar_fincas"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".HistorialActivity"
+            android:label="@string/title_historial_resultados"
+            android:parentActivityName=".FiltroHistorialActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FiltroHistorialActivity" />
+        </activity>
+        <activity
+            android:name=".FacturasActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".ActividadesActivity"
+            android:label="@string/title_actividades" />
+        <activity
+            android:name=".FincasActivity"
+            android:label="@string/title_fincas" />
+        <activity
+            android:name=".EmpleadosActivity"
+            android:label="@string/title_empleados" />
+        <activity
+            android:name=".BackupActivity"
+            android:label="@string/title_backup"/>
+        <activity
+            android:name=".ContactoActivity"/>
+    </application>
+
+</manifest>
